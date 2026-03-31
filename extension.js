@@ -41,8 +41,8 @@ class Indicator extends PanelMenu.Button {
     _getCoordinates() {
 
         const SCREEN_SIZE = this.settings.get_int('screen-size');
-		const YODOTOOL_VALUE = this.settings.get_int('yodotool-value');
-        let conv = SCREEN_SIZE / YODOTOOL_VALUE;
+		const YDOTOOL_VALUE = this.settings.get_int('ydotool-value');
+        let conv = SCREEN_SIZE / YDOTOOL_VALUE;
 
         let [mouse_x, mouse_y] = global.get_pointer();
         return `X: ${mouse_x} (${Math.round( mouse_x / conv )}) Y: ${mouse_y} (${Math.round( mouse_y / conv )})`;

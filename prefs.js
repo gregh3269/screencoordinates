@@ -18,12 +18,12 @@ export default class ExamplePreferences extends ExtensionPreferences {
 
         const group = new Adw.PreferencesGroup({
             title: _('Settings'),
-            description: _('Configure the conversion coordinates'),
+            description: _('Configure the conversion values'),
         });
         page.add(group);
 
-	    addSpinButton(settings,group,'screen-size','Screen size',1,3840,"Change this value to match the x value at the botom rhs of your screen.");
-	    addSpinButton(settings,group,'yodotool-value','Yodotool conversion value',1,600,"Change this value to match yodtool x position at bottom rhs of your screen.");
+	    addSpinButton(settings,group,'screen-size','Screen',1,3840,"Change this value to match the X: value at the botom rhs of your screen.");
+	    addSpinButton(settings,group,'ydotool-value','Ydotool',1,600,"Change this value to match ydotool -x position at the bottom rhs of your screen.");
 
     }
 }

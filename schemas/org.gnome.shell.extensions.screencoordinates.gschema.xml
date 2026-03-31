@@ -1,3 +1,4 @@
+<!-- glib-compile-schemas schemas/ -->
 <schemalist gettext-domain="screencoordinates">
   <schema id="org.gnome.shell.extensions.screencoordinates" path="/org/gnome/shell/extensions/screencoordinates/">
     <key name="show-indicator" type="b">
@@ -7,7 +8,7 @@
     <key name="screen-size" type="i">
       <default>1279</default>
       </key>
-    <key name="yodotool-value" type="i">
+    <key name="ydotool-value" type="i">
       <default>392</default>
     </key>
 
