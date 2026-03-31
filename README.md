@@ -22,7 +22,7 @@ Before using the extension, adjust the values in Extension settings to match you
 
    eg screen size 1280*1024 gives an X: value of 1279 and corresponding ydotool -x value of 392.
  
-   In the extenston settingsi set these two values.
+   In the extenston settings, set these two values.
 
    Check by using:
 
