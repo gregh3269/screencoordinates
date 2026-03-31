@@ -1,0 +1,13 @@
+{
+  "name": "Screen Coordinates",
+  "description": "Show screen coordinates in title bar with ydotool mousemove conversion",
+  "uuid": "screencoordinates@gregh3269.github.com",
+  "url": "https://github.com/gregh3269/screencoordinates",
+  "gettext-domain": "screencoordinates@gregh3269.github.com",
+  "settings-schema": "org.gnome.shell.extensions.screencoordinates",
+  "version": "0.1",
+  "shell-version": [
+    "47",
+    "48"
+  ]
+}
