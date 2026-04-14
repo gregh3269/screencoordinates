@@ -8,7 +8,7 @@ An simple extension to help calculate ydotool screen coordinates -x & -y from th
 
 The default installation path is: `~/.local/share/gnome-shell/extensions/screencoordinates@gregh3269.github.com`
 
-This extension (for GNOME 47/48) can be installed by simply copying the repository to the default installation path.
+This extension (for GNOME > 48) can be installed by simply copying the repository to the default installation path.
 
 
 ### Using the extension
@@ -28,9 +28,9 @@ Before using the extension, adjust the values in Extension settings to match you
 
    YDOTOOL_SOCKET="$HOME/.ydotool_socket" ydotool mousemove --absolute -x 250 -y 250
 
-   the values in brackets (top panel) should hopefully match approximately X:814 (249) Y:814 (249) .
+   the values in brackets (top panel) should hopefully match approximately X:814 (249) Y:814 (249).
 
-   Possibly there is a corect way to do this, but I was unable to make it work for my different screens.
+   Possibly there is a correct way to do this, but I was unable to make it work for my different screens.
 
 ## Contribution
 
