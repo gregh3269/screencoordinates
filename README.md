@@ -2,7 +2,7 @@
 ![alt text](https://github.com/gregh3269/screencoordinates/raw/main/screenshot.png "extension screenshot")
 
 # About
-An simple extension to help calculate ydotool screen coordinates -x & -y from the actual mouse position.
+An simple Gnome extension to help calculate ydotool screen coordinates -x & -y from the actual mouse position.
 
 ### More info about the installation
 
